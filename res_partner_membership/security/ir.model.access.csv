@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_read_membership,Read Membership,model_res_partner_membership,base.group_user,1,0,0,0
+access_create_write_delete_membership,CRUD Membership,model_res_partner_membership,res_partner_membership.group_create_membership,1,1,1,1

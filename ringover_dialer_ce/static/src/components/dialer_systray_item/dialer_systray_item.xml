@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="ringover_dialer.DialerSystray">
+        <div class="o_nav_entry">
+            <i
+                id="ringover_dialer_tray_icon"
+                role="button"
+                title="Ringover Dialer"
+                t-att-class="this.dialerStatus"
+                t-on-click="this.iconClicked"
+            />
+        </div>
+    </t>
+</templates>

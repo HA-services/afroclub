@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020-2023 Sodexis
+    License OPL-1 (See LICENSE file for full copyright and licensing details). -->
+<odoo noupdate="0">
+    <record
+        id="membership_consumables"
+        model="res.partner.membership"
+        forcecreate="False"
+    >
+        <field name="name">Consumables Membership</field>
+        <field name="woo_name">um_subscriber-consumables</field>
+    </record>
+    <record
+        id="membership_ls_product"
+        model="res.partner.membership"
+        forcecreate="False"
+    >
+        <field name="name">LS Product Membership</field>
+        <field name="woo_name">um_subscriber-lab-society-equipment</field>
+    </record>
+    <record id="membership_gold" model="res.partner.membership" forcecreate="False">
+        <field name="name">Gold Membership</field>
+        <field name="woo_name">um_subscriber-lab-society-equipment-consumables</field>
+    </record>
+</odoo>
