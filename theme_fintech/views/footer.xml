@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Part of Tech Terminologie. See LICENSE file for full copyright & licensing details -->
+
+<odoo>
+    <template id="theme_fintech_footer" name="Footer">
+        <section class="py-5 footer">
+            <div id="footer"
+                 class="container">
+                <div class="row pb-4">
+                    <div class="col-md-12 col-lg-4 footer_custom">
+                        <div class="inner_footer">
+                            <div class="footer_logo logo">
+                                <img src="/theme_fintech/static/src/img/Theme.png" alt="logo" loading="lazy" class="w-50"/>
+                            </div>
+                            <div class="footer_p">
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-2 footer_custom">
+                        <div class="inner_footer">
+                            <div class="inner_ul">
+                                <ul class="footer_ul">
+                                    <li class="footer_li">Page
+                                        builder
+                                    </li>
+                                    <li class="footer_li">Theme
+                                        options
+                                    </li>
+                                    <li class="footer_li">Theme
+                                        builder
+                                    </li>
+                                    <li class="footer_li">Template
+                                        library
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-2 footer_custom">
+                        <div class="inner_footer">
+                            <div class="inner_ul">
+                                <ul class="footer_ul">
+                                    <li class="footer_li">Website
+                                        editor
+                                    </li>
+                                    <li class="footer_li">Theme
+                                        options
+                                    </li>
+                                    <li class="footer_li">Theme
+                                        builder
+                                    </li>
+                                    <li class="footer_li">Template
+                                        library
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-2 footer_custom">
+                        <div class="inner_footer">
+                            <div class="inner_ul">
+                                <ul class="footer_ul">
+                                    <li class="footer_li">Support
+                                        center
+                                    </li>
+                                    <li class="footer_li">
+                                        Documentation
+                                    </li>
+                                    <li class="footer_li">
+                                        Community
+                                    </li>
+                                    <li class="footer_li">Hosting
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-2 footer_custom">
+                        <div class="social_outer">
+                            <div class="social_inner">
+                                <div class="social_icon d-grid text-center">
+                                    <i class="fa fa-facebook align-self-center"></i>
+                                </div>
+                                <div class="social_icon d-grid text-center">
+                                    <i class="fa fa-twitter align-self-center"></i>
+                                </div>
+                                <div class="social_icon d-grid text-center">
+                                    <i class="fa fa-instagram align-self-center"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top d-flex justify-content-between pt-5">
+                    <div class="copyright">©Tech Terminologie. All
+                        Rights Reserved.
+                    </div>
+                    <div class="policy">
+                        <div class="terms">Terms and Conditions
+                        </div>
+                        <div class="terms">Privacy Policy</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Part of Tech Terminologie. See LICENSE file for full copyright & licensing details -->
+
+<odoo>
+    <template id="theme_fintech_header" name="Header">
+        <header id="top" data-anchor="true" data-name="Header"
+                class="o_top_fixed_element o_header_standard">
+            <nav data-name="Navbar"
+                 class="navbar navbar-expand-lg navbar-light o_colored_level o_cc shadow-sm">
+                <div id="top_menu_container"
+                     class="container justify-content-start justify-content-lg-between">
+                    <a href="/" class="navbar-brand logo me-4">
+                        <span role="img"
+                              aria-label="Logo of My Website"
+                              title="My Website"  data-oe-id="1" data-oe-field="logo"
+                              data-oe-type="image" data-oe-expression="website.logo"
+                        >
+                            <img src="/theme_fintech/static/src/img/Theme.png"
+                                 class="img w-75 img-fluid logo" alt="My Website"
+                                 loading="lazy"/>
+                        </span>
+                    </a>
+                    <div id="top_menu_collapse" class="collapse navbar-collapse order-last order-lg-0">
+                        <ul id="top_menu" role="menu" class="nav navbar-nav">
+                            <li role="presentation" class="nav-item text-start">
+                                <a role="menuitem" href="/"
+                                   class="nav-link fw-bold">
+                                    <span  data-oe-id="5" data-oe-field="name"
+                                          data-oe-type="char" data-oe-expression="submenu.name"
+
+                                    >Home
+                                    </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-item text-start">
+                                <a role="menuitem" href="/fintech/about-us"
+                                   class="nav-link fw-bold">
+                                    <span  data-oe-id="5" data-oe-field="name"
+                                          data-oe-type="char" data-oe-expression="submenu.name"
+
+                                    >About Us
+                                    </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-item text-start">
+                                <a role="menuitem" href="/fintech/services"
+                                   class="nav-link fw-bold">
+                                    <span data-oe-id="5" data-oe-field="name"
+                                          data-oe-type="char" data-oe-expression="submenu.name"
+
+                                    >Services
+                                    </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-item text-start">
+                                <a role="menuitem" href="/fintech/pricing"
+                                   class="nav-link fw-bold">
+                                    <span data-oe-id="5" data-oe-field="name"
+                                          data-oe-type="char" data-oe-expression="submenu.name"
+
+                                    >Pricing
+                                    </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-item text-start">
+                                <a role="menuitem" href="/fintech/faq"
+                                   class="nav-link fw-bold">
+                                    <span data-oe-id="5" data-oe-field="name"
+                                          data-oe-type="char" data-oe-expression="submenu.name"
+
+                                    >FAQ
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-oe-id="551"
+                         data-oe-field="arch"
+                         class="oe_structure d-md-block d-none oe_structure_solo ms-lg-4 o_editable"
+                    >
+                        <div class="d-flex">
+                            <div class="user_interact d-lg-none d-xl-flex ">
+                                <a href="#" class="hero_btn transparent_btn">
+                                    <span data-attr="We are Hiring">
+                                        We are Hiring
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="user_interact ms-4">
+                                <a href="#" class="hero_btn">
+                                    <span data-attr="Contact Us">
+                                        Contact Us
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#top_menu_collapse"
+                          data-oe-id="474" data-oe-field="arch"
+                            class="navbar-toggler ms-auto o_editable"
+                    >
+                        <span class="navbar-toggler-icon o_not_editable" contenteditable="false"></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+    </template>
+</odoo>

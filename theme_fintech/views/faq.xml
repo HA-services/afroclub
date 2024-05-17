@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Part of Tech Terminologie. See LICENSE file for full copyright & licensing details -->
+
+<odoo>
+    <template id="theme_fintech_faq" name="Frequently Asked Question">
+        <t t-call="website.layout">
+            <xpath expr='//t[@t-call="website.layout"]' position="inside">
+                <t t-set="no_header" t-value="True"/>
+                <t t-set="no_footer" t-value="True"/>
+            </xpath>
+            <div id="wrap" class="theme_fintech_temp oe_structure oe_empty limit-min">
+                <div class="theme_fintech_body">
+                    <t t-call="theme_fintech.theme_fintech_header"/>
+                    <div class="breadcumb-area d-flex align-items-center">
+                        <div class="container">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-lg-12">
+                                    <div class="breadcumb-content">
+                                        <h1 class="fw-bold">FAQ</h1>
+                                        <ul>
+                                            <li>
+                                                <a href="/" class="text-decoration-none fw-bold">Home</a>
+                                            </li>
+                                            <li class="fw-bold">FAQ</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="britcam-shape">
+                                    <div class="breadcumb-content upp">
+                                        <ul>
+                                            <li>
+                                                <a href="/" class="text-decoration-none fw-bold">Home</a>
+                                            </li>
+                                            <li class="fw-bold">FAQ</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section id="faq">
+                        <div class="container">
+                            <div class="row help_container">
+                                <div class="col-sm-12 col-md-6 align-self-center">
+                                    <div class="hero_inner">
+                                        <div class="small_text">Frequently Asked Question</div>
+                                        <div class="big_heading fw-bold">Have a question? Find your answer
+                                        </div>
+                                        <div class="big_text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting
+                                            industry.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 o_colored_level o_animate o_animate_preview o_anim_slide_in o_anim_from_bottom">
+                                    <section class="s_faq_collapse o_colored_level"
+                                             data-snippet="s_faq_collapse"
+                                             data-name="Accordion" style="background-image: none;">
+                                        <div class="container">
+                                            <div id="myCollapse" class="accordion" role="tablist">
+                                                <div class="card bg-white" data-name="Item">
+                                                    <a href="#" role="tab" data-bs-toggle="collapse"
+                                                       aria-expanded="false"
+                                                       class="card-header fw-bold o_default_snippet_text ps-0 s_faq_collapse_right_icon"
+                                                       data-bs-target="#myCollapseTab763042_1">Terms of service
+                                                    </a>
+                                                    <div class="collapse show" data-bs-parent="#myCollapse"
+                                                         role="tabpanel"
+                                                         id="myCollapseTab763042_1">
+                                                        <div class="card-body p-0">
+                                                            <p class="card-text o_default_snippet_text">Lorem Ipsum is
+                                                                simply dummy text of the printing and
+                                                                typesetting
+                                                                industry. Lorem Ipsum is simply dummy text of the
+                                                                printing and
+                                                                typesetting
+                                                                industry.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card bg-white" data-name="Item">
+                                                    <a href="#" role="tab" data-bs-toggle="collapse"
+                                                       aria-expanded="false"
+                                                       class="card-header fw-bold o_default_snippet_text collapsed ps-0 s_faq_collapse_right_icon"
+                                                       data-bs-target="#myCollapseTab763042_2">Links to other
+                                                        Websites
+                                                    </a>
+                                                    <div class="collapse" data-bs-parent="#myCollapse"
+                                                         role="tabpanel"
+                                                         id="myCollapseTab763042_2">
+                                                        <div class="card-body p-0">
+                                                            <p class="card-text o_default_snippet_text">Lorem Ipsum is
+                                                                simply dummy text of the printing and
+                                                                typesetting
+                                                                industry.
+                                                                Lorem Ipsum is simply dummy text of the printing Lorem
+                                                                Ipsum is simply dummy text of the printing and
+                                                                typesetting
+                                                                industry.
+                                                                typesetting
+                                                                industry.
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card bg-white" data-name="Item">
+                                                    <a href="#" role="tab" data-bs-toggle="collapse"
+                                                       aria-expanded="false"
+                                                       class="card-header fw-bold o_default_snippet_text ps-0 collapsed s_faq_collapse_right_icon"
+                                                       data-bs-target="#myCollapseTab763042_3">Use of Cookies
+                                                    </a>
+                                                    <div class="collapse" data-bs-parent="#myCollapse"
+                                                         role="tabpanel"
+                                                         id="myCollapseTab763042_3">
+                                                        <div class="card-body p-0">
+                                                            <p class="card-text o_default_snippet_text">Lorem Ipsum is
+                                                                simply dummy text of the printing and
+                                                                typesetting
+                                                                industry.
+                                                                Lorem Ipsum is simply dummy text of the printing Lorem
+                                                                Ipsum is simply dummy text of the printing and
+                                                                typesetting
+                                                                industry.
+                                                                typesetting
+                                                                industry.
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="container px-md-0 px-4">
+                            <div class="row news_container">
+                                <div class="news_img">
+                                    <img src="/theme_fintech/static/src/img/last_bg.svg" loading="lazy" alt="image"/>
+                                </div>
+                                <div class="col-12 news_letter">
+                                    <div class="news_section">
+                                        <div class="small_text o_colored_level o_animate o_animate_preview o_anim_slide_in o_anim_from_bottom">
+                                            Newsletter
+                                        </div>
+                                        <div class="small_heading text-center o_colored_level o_animate o_animate_preview o_anim_slide_in o_anim_from_bottom">
+                                            Stay in the loop.<br/>Get the
+                                            latest
+                                            insights
+                                        </div>
+                                        <div class="new_input row m-4 o_colored_level o_animate o_animate_preview o_anim_slide_in o_anim_from_bottom pt-4 pt-md-0">
+                                            <div class="input_field_outer px-0 col-7">
+                                                <input placeholder="Email" class="input_field"/>
+                                            </div>
+                                            <div class="btn_outer px-0 h-100 col-5">
+                                                <div class="news_btn active_btn">
+                                                    <span data-attr="Stay in the loop">Stay in the loop</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <t t-call="theme_fintech.theme_fintech_footer"/>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>
