@@ -4,7 +4,6 @@
     'description': 'Theme Fintech',
     'summary': 'Theme Fintech',
     'category': 'theme',
-    'author' : 'Tech Terminologie',
     'version': '1.0',
     'depends': ['website'],
     'data': [
